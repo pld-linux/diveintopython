@@ -7,10 +7,13 @@ License:	FDL
 Group:		Documentation
 Source0:	http://www.diveintopython.org/download/%{name}-html-%{version}.zip
 # Source0-md5:	09247597b21c6253b810f081053e56b5
-URL:		http://diveintopython.org/
+URL:		http://www.diveintopython.org/
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		__python_provides	%{nil}
+%define		__python_requires	%{nil}
 
 %description
 Dive Into Python is a Python book for experienced programmers.
