@@ -1,5 +1,5 @@
 Summary:	A Python book
-Summary(pl):	Ksi±¿ka o Pythonie
+Summary(pl.UTF-8):   KsiÄ…Å¼ka o Pythonie
 Name:		diveintopython
 Version:	5.4
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Dive Into Python is a Python book for experienced programmers.
 
-%description -l pl
-Dive Into Python (Zag³êbiaj±c siê w Pythona) jest ksi±¿k± o Pythonie
-dla do¶wiadczonych programistów.
+%description -l pl.UTF-8
+Dive Into Python (ZagÅ‚Ä™biajÄ…c siÄ™ w Pythona) jest ksiÄ…Å¼kÄ… o Pythonie
+dla doÅ›wiadczonych programistÃ³w.
 
 %prep
 %setup -q
