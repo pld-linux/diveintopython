@@ -1,5 +1,5 @@
 Summary:	A Python book
-Summary(pl.UTF-8):   Książka o Pythonie
+Summary(pl.UTF-8):	Książka o Pythonie
 Name:		diveintopython
 Version:	5.4
 Release:	1
